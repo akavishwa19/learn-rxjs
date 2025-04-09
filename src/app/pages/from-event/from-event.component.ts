@@ -7,9 +7,12 @@ import { fromEvent } from 'rxjs';
   styleUrl: './from-event.component.scss',
 })
 export class FromEventComponent {
+
+  //get the required elements from the dom via viewchild
   @ViewChild('btn') myBtn!: ElementRef<HTMLElement>;
   @ViewChild('parentEl') parentEl!: ElementRef<HTMLElement>;
 
+  //a counter and an observer in order to track the subscription
   counter: number = 1;
   observer!: any;
 
@@ -17,10 +20,13 @@ export class FromEventComponent {
 
   ngOnInit() {}
 
+  //since dom elements are accesible in afterviewinit
   ngAfterViewInit() {
     this.observableFromEvent();
   }
 
+  //subscribe to the observable
+  //using the from event we can create an observable steam from the ui elemnts , it retruns the event in response
   observableFromEvent() {
     this.observer = fromEvent<MouseEvent>(
       this.myBtn.nativeElement,
@@ -32,6 +38,7 @@ export class FromEventComponent {
     });
   }
 
+  //function to display the subscription output
   printOnScreen(btnValue: string) {
     console.log(this.counter);
 
