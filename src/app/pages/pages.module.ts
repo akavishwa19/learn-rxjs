@@ -10,6 +10,7 @@ import { TimerComponent } from './timer/timer.component';
 import { OfComponent } from './of/of.component';
 import { FromComponent } from './from/from.component';
 import { ToArrayComponent } from './to-array/to-array.component';
+import { ObservableComponent } from './observable/observable.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ToArrayComponent } from './to-array/to-array.component';
     TimerComponent,
     OfComponent,
     FromComponent,
-    ToArrayComponent
+    ToArrayComponent,
+    ObservableComponent
   ],
   imports: [
     CommonModule,

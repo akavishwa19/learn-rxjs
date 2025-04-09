@@ -8,6 +8,8 @@ import { TimerComponent } from './timer/timer.component';
 import { OfComponent } from './of/of.component';
 import { FromComponent } from './from/from.component';
 import { ToArrayComponent } from './to-array/to-array.component';
+import { Observable } from 'rxjs';
+import { ObservableComponent } from './observable/observable.component';
 
 const routes: Routes = [
   {
@@ -41,6 +43,10 @@ const routes: Routes = [
       {
         path: 'to-array',
         component: ToArrayComponent,
+      },
+      {
+        path: 'observable',
+        component: ObservableComponent,
       },
     ],
   },
