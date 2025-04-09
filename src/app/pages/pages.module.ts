@@ -14,6 +14,7 @@ import { ObservableComponent } from './observable/observable.component';
 import { MapComponent } from './map/map.component';
 import { PluckComponent } from './pluck/pluck.component';
 import { FilterComponent } from './filter/filter.component';
+import { TapComponent } from './tap/tap.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { FilterComponent } from './filter/filter.component';
     ObservableComponent,
     MapComponent,
     PluckComponent,
-    FilterComponent
+    FilterComponent,
+    TapComponent
   ],
   imports: [
     CommonModule,
