@@ -5,6 +5,9 @@ import { PromisesComponent } from './promises/promises.component';
 import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalComponent } from './interval/interval.component';
 import { TimerComponent } from './timer/timer.component';
+import { OfComponent } from './of/of.component';
+import { FromComponent } from './from/from.component';
+import { ToArrayComponent } from './to-array/to-array.component';
 
 const routes: Routes = [
   {
@@ -26,6 +29,18 @@ const routes: Routes = [
       {
         path: 'timer',
         component: TimerComponent,
+      },
+      {
+        path: 'of',
+        component: OfComponent,
+      },
+      {
+        path: 'from',
+        component: FromComponent,
+      },
+      {
+        path: 'to-array',
+        component: ToArrayComponent,
       },
     ],
   },
