@@ -10,6 +10,9 @@ import { FromComponent } from './from/from.component';
 import { ToArrayComponent } from './to-array/to-array.component';
 import { Observable } from 'rxjs';
 import { ObservableComponent } from './observable/observable.component';
+import { MapComponent } from './map/map.component';
+import { PluckComponent } from './pluck/pluck.component';
+import { FilterComponent } from './filter/filter.component';
 
 const routes: Routes = [
   {
@@ -47,6 +50,18 @@ const routes: Routes = [
       {
         path: 'observable',
         component: ObservableComponent,
+      },
+      {
+        path: 'map',
+        component: MapComponent,
+      },
+      {
+        path: 'pluck',
+        component: PluckComponent,
+      },
+      {
+        path: 'filter',
+        component: FilterComponent,
       },
     ],
   },

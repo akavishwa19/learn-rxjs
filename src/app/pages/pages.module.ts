@@ -11,6 +11,9 @@ import { OfComponent } from './of/of.component';
 import { FromComponent } from './from/from.component';
 import { ToArrayComponent } from './to-array/to-array.component';
 import { ObservableComponent } from './observable/observable.component';
+import { MapComponent } from './map/map.component';
+import { PluckComponent } from './pluck/pluck.component';
+import { FilterComponent } from './filter/filter.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { ObservableComponent } from './observable/observable.component';
     OfComponent,
     FromComponent,
     ToArrayComponent,
-    ObservableComponent
+    ObservableComponent,
+    MapComponent,
+    PluckComponent,
+    FilterComponent
   ],
   imports: [
     CommonModule,
