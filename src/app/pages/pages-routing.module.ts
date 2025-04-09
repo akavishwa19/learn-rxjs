@@ -4,6 +4,7 @@ import { PagesComponent } from './pages.component';
 import { PromisesComponent } from './promises/promises.component';
 import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalComponent } from './interval/interval.component';
+import { TimerComponent } from './timer/timer.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: 'interval',
         component: IntervalComponent,
+      },
+      {
+        path: 'timer',
+        component: TimerComponent,
       },
     ],
   },

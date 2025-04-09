@@ -6,6 +6,7 @@ import { PagesComponent } from './pages.component';
 import { PromisesComponent } from './promises/promises.component';
 import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalComponent } from './interval/interval.component';
+import { TimerComponent } from './timer/timer.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { IntervalComponent } from './interval/interval.component';
     PagesComponent,
     PromisesComponent,
     FromEventComponent,
-    IntervalComponent
+    IntervalComponent,
+    TimerComponent
   ],
   imports: [
     CommonModule,
