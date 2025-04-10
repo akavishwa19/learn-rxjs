@@ -16,6 +16,8 @@ import { FilterComponent } from './filter/filter.component';
 import { TapComponent } from './tap/tap.component';
 import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
+import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
+import { ThrottletimeComponent } from './throttletime/throttletime.component';
 
 const routes: Routes = [
   {
@@ -77,6 +79,14 @@ const routes: Routes = [
       {
         path: 'retry',
         component: RetryComponent,
+      },
+      {
+        path: 'debounce-time',
+        component: DebouncetimeComponent,
+      },
+      {
+        path: 'throttle-time',
+        component: ThrottletimeComponent,
       },
     ],
   },

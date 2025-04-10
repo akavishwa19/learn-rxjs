@@ -17,6 +17,8 @@ import { FilterComponent } from './filter/filter.component';
 import { TapComponent } from './tap/tap.component';
 import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
+import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
+import { ThrottletimeComponent } from './throttletime/throttletime.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { RetryComponent } from './retry/retry.component';
     FilterComponent,
     TapComponent,
     TakeComponent,
-    RetryComponent
+    RetryComponent,
+    DebouncetimeComponent,
+    ThrottletimeComponent
   ],
   imports: [
     CommonModule,
