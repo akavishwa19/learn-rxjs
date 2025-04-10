@@ -19,6 +19,10 @@ import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ThrottletimeComponent } from './throttletime/throttletime.component';
+import { ConcatmapComponent } from './concatmap/concatmap.component';
+import { MergeMapComponent } from './merge-map/merge-map.component';
+import { ExhaustmapComponent } from './exhaustmap/exhaustmap.component';
+import { SwitchmapComponent } from './switchmap/switchmap.component';
 
 
 @NgModule({
@@ -39,7 +43,11 @@ import { ThrottletimeComponent } from './throttletime/throttletime.component';
     TakeComponent,
     RetryComponent,
     DebouncetimeComponent,
-    ThrottletimeComponent
+    ThrottletimeComponent,
+    ConcatmapComponent,
+    MergeMapComponent,
+    ExhaustmapComponent,
+    SwitchmapComponent
   ],
   imports: [
     CommonModule,

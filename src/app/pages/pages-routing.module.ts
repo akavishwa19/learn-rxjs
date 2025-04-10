@@ -18,6 +18,10 @@ import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ThrottletimeComponent } from './throttletime/throttletime.component';
+import { ConcatmapComponent } from './concatmap/concatmap.component';
+import { SwitchmapComponent } from './switchmap/switchmap.component';
+import { MergeMapComponent } from './merge-map/merge-map.component';
+import { ExhaustmapComponent } from './exhaustmap/exhaustmap.component';
 
 const routes: Routes = [
   {
@@ -87,6 +91,22 @@ const routes: Routes = [
       {
         path: 'throttle-time',
         component: ThrottletimeComponent,
+      },
+      {
+        path: 'concat-map',
+        component: ConcatmapComponent,
+      },
+      {
+        path: 'switch-map',
+        component: SwitchmapComponent,
+      },
+      {
+        path: 'merge-map',
+        component: MergeMapComponent,
+      },
+      {
+        path: 'exhaust-map',
+        component: ExhaustmapComponent,
       },
     ],
   },
